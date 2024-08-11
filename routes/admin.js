@@ -1,11 +1,11 @@
 const express = require("express");
 const router = express.Router();
 const { checkAuthenticated } = require("../config/passport.config.js");
-const checkAdmin = require("../middleware/CheckAdmin"); // Ensure the correct path and name
+const checkAdmin = require("../middleware/CheckAdmin"); 
 const getLogFileContent = require("../services/getLogFileContent");
-const getMongoLogs = require("../services/Mongo/getLogs").getMongoLogs;
-const getPostgresLogs = require("../services/PG/getPostgresLogs"); // Import the PostgreSQL logs function
-const { getErrorLog, getSearchLog } = require("../services/Mongo/getLogs");
+const getMongoLogs = require("../middleware/getLogs").getMongoLogs;
+const getPostgresLogs = require("../services/PG/getPostgresLogs");
+const { getErrorLog, getSearchLog } = require("../middleware/getLogs");
 const { getUserById } = require("../services/PG/p.Users.dal.js");
 
 // Check if these imports are functions
