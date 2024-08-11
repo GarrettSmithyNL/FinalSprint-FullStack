@@ -26,9 +26,15 @@ var getProductById = function (id) {
 
     dal.query(sql, [id], (err, result) => {
       if (err) {
+        if (DEBUG) console.log(err);
         reject(err);
       } else {
-        resolve(result.rows[0]);
+        if (DEBUG) console.log(`Row count: ${result.rowCount}`);
+        if (result.rowCount === 0) {
+          reject(new Error("Product not found"));
+        } else {
+          resolve(result.rows[0]);
+        }
       }
     });
   });
