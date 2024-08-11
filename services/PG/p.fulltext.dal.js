@@ -22,13 +22,19 @@ var getFullText = function (text) {
 
 var getProductById = function (id) {
   return new Promise(function (resolve, reject) {
-    const sql = `SELECT product_id AS id, name, price, description, release_date AS release_year, condition FROM Products WHERE product_id = $1`;
+    const sql = `SELECT product_id AS id, name, description, condition FROM Products WHERE product_id = $1`;
 
     dal.query(sql, [id], (err, result) => {
       if (err) {
+        if (DEBUG) console.log(err);
         reject(err);
       } else {
-        resolve(result.rows[0]);
+        if (DEBUG) console.log(`Row count: ${result.rowCount}`);
+        if (result.rowCount === 0) {
+          reject(new Error("Product not found"));
+        } else {
+          resolve(result.rows[0]);
+        }
       }
     });
   });
