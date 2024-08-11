@@ -1,5 +1,6 @@
+const { ErrorLogoMongo } = require("../Mongo/M.errorLog.js");
 const DAL = require("./p.db.js");
-
+const AUTH_ERROR = require("../ErrorTypes.js").AUTH_ERROR;
 const getUsers = async () => {
   const SQL = `SELECT * FROM Users`;
   try {
@@ -52,9 +53,11 @@ const createUser = async (user_name, email_address, password) => {
     return results.rows[0];
   } catch (error) {
     if (error.code === "23505") {
+      ErrorLogoMongo(AUTH_ERROR, "User already exists");
       console.error("User already exists");
-      return null;
+      throw error;
     } else {
+      ErrorLogoMongo(AUTH_ERROR, "Error creating user");
       console.error("Error creating user:", error);
     }
   }
