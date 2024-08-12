@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const logger = require("../utils/logger"); // Imported logger
+const logger = require("../logging/logger"); // Imported logger
 
 const {
   searchProducts,

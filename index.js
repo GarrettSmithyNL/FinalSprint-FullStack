@@ -13,8 +13,8 @@ const {
 } = require("./config/passport.config");
 const connectDB = require("./services/Mongo/M.db");
 const Product = require("./services/Mongo/M.products");
-const logger = require("./utils/logger");
-const checkAdmin = require("./middleware/CheckAdmin");
+const logger = require("./logging/logger");
+const checkAdmin = require("./routes/CheckAdmin");
 
 // Variables
 const port = parseInt(process.env.PORT) || 3000;

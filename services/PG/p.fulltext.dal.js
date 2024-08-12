@@ -22,8 +22,8 @@ var getFullText = function (text) {
 
 var getProductById = function (id) {
   return new Promise(function (resolve, reject) {
-    const sql = `SELECT product_id AS id, name, description, condition FROM Products WHERE product_id = $1`;
-
+    const sql = `SELECT product_id AS id, name, description, price, condition, release_year FROM Products WHERE product_id = $1`;
+ 
     dal.query(sql, [id], (err, result) => {
       if (err) {
         if (DEBUG) console.log(err);
@@ -39,6 +39,7 @@ var getProductById = function (id) {
     });
   });
 };
+ 
 
 var searchProducts = function (query) {
   return getFullText(query);

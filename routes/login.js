@@ -6,7 +6,7 @@ const { checkNotAuthenticated } = require("../config/passport.config.js");
 const UsersDAL = require("../services/PG/p.Users.dal.js");
 const { AUTH_ERROR } = require("../services/ErrorTypes.js");
 // Import logging utilities
-const logger = require("../utils/logger");
+const logger = require("../logging/logger");
 const logToMongo = require("../services/Mongo/M.log").logToMongo;
 const logToPostgres = require("../services/PG/p.log");
 const ErrorLogoMongo =
