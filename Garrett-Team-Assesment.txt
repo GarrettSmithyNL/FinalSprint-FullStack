@@ -1,0 +1,83 @@
+TEAM ASSESSMENT
+1.) Overall, how effectively did your team work together on this project?
+    - Extremely Well
+
+2.) What percentage of your team participated actively and was fully prepared most of the time?
+    - 100% Everyone was alway ready and prepared.
+
+3.) Give one specific example of something you learned from the team that you probably would not
+have learned working alone.
+    - I have learned to let other people get things done, and trust them that they are going to do it.
+  
+4.) Give one specific example of something the other team members learned from you that they
+probably would not have learned otherwise.
+    - I showed them how to properly use Git. Without working on a team we would have the oppertunity
+    to work through the problems
+
+5.) Suggest at least one change the team could make to improve its performance or the project.
+    - One thing we could have worked on is timing on completeting certain tasks we were
+    waiting on eachother sometimes.
+
+MEMBER ASSESSMENT
+SELF Evaluation (Name: Garrett Smith):
+5 - Participation in developing ideas and planning project
+5 - Willingness to discuss the ideas of others
+5 - Cooperation with other group members
+5 - Interest and enthusiasm in project
+5 - Participation in leading/facilitating discussion
+5 - Ease and familiarity with discussion material
+
+PEER Evaluation (Partner 1: Rodney Stead):
+5 - Participation in developing ideas and planning project
+5 - Willingness to discuss the ideas of others
+5 - Cooperation with other group members
+5 - Interest and enthusiasm in project
+5 - Participation in leading/facilitating discussion
+5 - Ease and familiarity with discussion material
+
+PEER Evaluation (Partner 2: Zachary Ropson):
+5 - Participation in developing ideas and planning project
+5 - Willingness to discuss the ideas of others
+5 - Cooperation with other group members
+5 - Interest and enthusiasm in project
+5 - Participation in leading/facilitating discussion
+5 - Ease and familiarity with discussion material
+
+SELF-REFLECTION
+1.) What did you learn from the team sprint experience?
+    - I have learned to be more trusting in my team members to get work done.
+
+2.) What do you think went well?
+    - I think the planning went a lot better then last time. This time we 
+    broke up both projects and did both of them at the same time instead of just 
+    doing one at a time. 
+
+3.) What would you have done differently, given the opportunity?
+    - I dont think I would have done anything differently. Everyting flowed well, produced good, 
+    and on time. 
+
+4.) Do you have any other comments or suggestions about the project?
+    
+PROJECT ASSESSMENT
+1.) As a team estimate how many hours did it take you to complete this sprint? (Please keep try to
+keep track of how many hours you have spent working on each individual part of this sprint as
+best you can - an estimation is fine; we just want a rough idea.)
+    - We spent around 65 hours to complete this project. 
+
+2.)What online resources you have used? (Program Lectures, YouTube, Stack overflow etc.)
+    - I mostly used documentation and copilot to explain how things like passport and bcrypt work.
+
+3.)Did you need to ask any of your friends in solving the problems. (If yes, please mention name of
+the friend. They must be amongst your class fellows.)
+    - I Asked mostly how the logic worked of my team members code but no one else.
+
+4.) Did you need to ask questions to any of your instructors? If so, how many questions did you ask
+(or how many help sessions did you require)?
+    - We ask some question for clarification at the beginning but nothing else.
+
+5.)Rate (subjectively) the difficulty of the sprint from your own perspective, and whether you feel
+confident that you can solve a similar but different sprint requiring some of the same techniques
+in the future now that you’ve completed this one.
+    -I feel this sprint was 3.5 out of 5. It was easy to concepualize, and to plan. Once the plan wa
+    made the code came naturally.
+
